@@ -51,14 +51,14 @@ export function RouteMap({ stations, trainPositions }: RouteMapProps) {
   };
 
   return (
-    <div className="bg-gradient-to-br from-white to-emerald-50 rounded-2xl shadow-2xl p-8 border border-emerald-100">
+    <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 border border-slate-200">
       <div className="flex items-center gap-3 mb-6">
         <div className="p-3 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl shadow-lg">
           <Map className="w-6 h-6 text-white" />
         </div>
         <div>
           <h2 className="text-2xl font-bold text-slate-800">แผนที่เส้นทางรถเมล์ไฟฟ้า</h2>
-          <p className="text-sm text-slate-500">เส้นทางวนรอบภายในมหาวิทยาลัย • {trainPositions.length} คัน</p>
+          <p className="text-sm text-slate-600">เส้นทางวนรอบภายในมหาวิทยาลัย • {trainPositions.length} คัน</p>
         </div>
       </div>
       

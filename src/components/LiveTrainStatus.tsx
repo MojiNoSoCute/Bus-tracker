@@ -101,7 +101,7 @@ export function LiveTrainStatus({ stations, trainPositions, currentTime }: LiveT
         return (
           <div 
             key={train.trainId}
-            className="relative overflow-hidden rounded-xl md:rounded-2xl shadow-2xl p-4 md:p-6 text-white border border-white/20 flex-shrink-0 w-[85vw] sm:w-[70vw] lg:w-auto"
+            className="relative overflow-hidden rounded-2xl shadow-xl p-6 text-white border border-white/20 flex-shrink-0 w-[90vw] sm:w-[75vw] lg:w-auto"
             style={{
               background: `linear-gradient(135deg, ${train.color}dd, ${train.color})`
             }}
